@@ -29,6 +29,7 @@ Harcamaları kategoriye göre seçebilir ve tüm verileri grafikler üzerinden g
 Uygulama her cihazda sorunsuz çalışır, tüm değişiklikler anlık olarak görünür.
 
 🤝 Katkı Sağlamak İsteyenlere
+
 Projeye katkıda bulunmak isteyen geliştiriciler GitHub üzerinden projeyi forklayabilir, yeni özellikler ekleyebilir ve geliştirmelerini Pull Request olarak paylaşabilirler.
 
 ![image](https://github.com/user-attachments/assets/d7d33550-0714-4960-8410-4c8dccc31085)
