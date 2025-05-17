@@ -20,6 +20,7 @@ Backend (Arka Yüz):
 🟢 Node.js, 🚂 Express.js, 🍃 MongoDB, 🔐 JWT ile kimlik doğrulama
 
 🚀 Nasıl Çalışır?
+
 Uygulama açıldığında kullanıcı isterse kayıt olabilir ya da giriş yapabilir.
 
 Giriş yaptıktan sonra kontrol paneli (dashboard) üzerinden gelir ve giderlerini yönetebilir.
