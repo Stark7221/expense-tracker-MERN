@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-display:"Poppins", sans-serif;
+    --breakpoint:1920px;
+    --color-primary: #875cf5;
+}
+
+@layer base {
+    html {
+        font-family: var(--font-display);
+    }
+    body {
+     background-color: #fcfbfc;
+    }
+}
+
+.input-box{
+    @apply w-full flex justify-between gap-3 text-sm text-black bg-slate-100 rounded px-4 py-3 mb-4 mt-3 border border-slate-200 outline-none
+}
+
+.btn-primary{
+    @apply w-full text-sm font-medium text-white bg-violet-500 shadow-lg shadow-purple-600/5 p-[10px] rounded-md my-1 hover:bg-purple-600/5 hover:text-purple-600
+}
+
+/* Dashboard Animasyonları */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Gradient Animasyonu */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-gradient-to-br {
+  background-size: 200% 200%;
+  animation: gradientFlow 15s ease infinite;
+}
+
+/* Login Slider Animasyonları */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fade-in {
+  animation: fade-in 0.7s cubic-bezier(.4,0,.2,1) both;
+}
+@keyframes slider {
+  from { opacity: 0; transform: scale(0.95);}
+  to { opacity: 1; transform: scale(1);}
+}
+.animate-slider {
+  animation: slider 0.7s cubic-bezier(.4,0,.2,1) both;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0);}
+  25% { transform: translateX(-5px);}
+  75% { transform: translateX(5px);}
+}
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.3;}
+  50% { opacity: 0.1;}
+}
+.animate-pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
