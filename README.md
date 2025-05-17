@@ -1,7 +1,9 @@
 💰 Finansal Takip Uygulaması
-Finansal Takip Uygulaması, kişisel gelir ve giderlerini kolayca takip etmek isteyenler için geliştirilen modern bir web uygulamasıdır. Uygulama sayesinde kullanıcılar, harcamalarını ve gelirlerini kayıt altına alabilir, kategorilere ayırabilir ve tüm bu verileri anlaşılır grafiklerle analiz edebilir.
+
+kişisel gelir ve giderlerini kolayca takip etmek isteyenler için geliştirilen modern bir web uygulamasıdır. Uygulama sayesinde kullanıcılar, harcamalarını ve gelirlerini kayıt altına alabilir, kategorilere ayırabilir ve tüm bu verileri anlaşılır grafiklerle analiz edebilir.
 
 🌟 Temel Özellikler
+
 🔐 Güvenli Giriş: Kullanıcılar hesap oluşturarak güvenli bir şekilde giriş yapabilir.
 📊 Gelir & Gider Takibi: Tüm finansal hareketler kolayca sisteme kaydedilebilir.
 📈 Grafiklerle Görsel Analiz: Harcamalar grafiklerle detaylı şekilde analiz edilebilir.
@@ -10,6 +12,7 @@ Finansal Takip Uygulaması, kişisel gelir ve giderlerini kolayca takip etmek is
 🔄 Canlı Güncellenen Veriler: Yapılan işlemler anında sisteme yansır.
 
 🛠️ Kullanılan Teknolojiler
+
 Frontend (Ön Yüz):
 ⚛️ React.js, 🧭 React Router, 📊 Chart.js, 🔔 React Toastify, 📡 Axios, 📁 Context API, 🎨 Modern CSS
 
